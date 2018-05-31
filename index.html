@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  </head>
+  <body>
+
+      <div id='app'>
+
+        <div id='headers'>
+          <h1 id='title'>Play the guessing game!</h1>
+          <h2 id='subtitle'>Guess a number between 1 and 100.</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input placeholder="#" maxlength='3' autofocus=autofocus id="player-input"></input>
+            <button id="submit">Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul class='guess' id='guess-list'>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button class='btn btn-warning' id='reset'>Reset</button>
+            <button class='btn btn-info' id='hint'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+          <div class='col-sm-4'>
+            <h4>Project by Lucas Levin</h4>
+          </div>
+          <div class='col-sm-4'>
+            <img src='img/grace_hopper_academy.png'></img>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/GuessingGame.js'></script>
+  </body>
+</html>

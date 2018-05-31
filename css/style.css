@@ -1,0 +1,85 @@
+html {
+  box-sizing: 'border-box'
+}
+
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+#app {
+  padding: 40px 0 800px 0;
+  margin: 0px;
+  background-image: url('../img/what-the-hex.png');
+}
+
+#headers > h1, h2 {
+  margin: 0 0 20px 0;
+}
+
+#guesses {
+  margin: 30px 0;
+}
+
+#input-parent {
+  margin: 60px auto;
+  position: relative;
+  left: 30px;
+}
+
+#input-parent > input, button {
+  border-radius: 50%;
+}
+
+#input-parent >input {
+  border-top: solid 3px #595959; 
+  border-left: solid 3px #595959; 
+  border-bottom: solid 1px gray; 
+  border-right: solid 1px gray; 
+  background-color: white;
+  color: gray;
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+}
+
+#input-parent button {
+  background-color: #33cc33;
+  color: white;
+  height: 60px;
+  width: 60px;
+  font-size: 15px;
+  position: relative;
+  top: 40px;
+  right: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+  display: inline-block;
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-size: 40px;
+  margin: 0px 3px;
+  background-color: white;
+}
+
+img {
+    height: 50px;
+}
+
+#footer {
+    width: 100%;
+    /*height: 100px;*/
+    padding: 20px 0;
+    border-top: solid 2px black;
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+}
